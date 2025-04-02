@@ -9,15 +9,236 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <div class="logo">ENAKSPiece</div>
+            <div class="logo"><img src="Logo.png" alt="logo"></div>
+
+            <!-- Mobile Menu Button -->
+            <div class="menu-toggle">&#9776;</div>
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const menuToggle = document.querySelector(".menu-toggle");
+                const navLinks = document.querySelector(".nav-links");
+
+                menuToggle.addEventListener("click", function() {
+                    navLinks.classList.toggle("active")
+                })
+            })
+            </script>
+
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Feature</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
-            <button class="cta-button">Get Started</button>
+            <div class="login-signup">
+                <button class="login-button">Login</button>
+                <button class="signup-button">Sign up</button>
+            </div>
         </nav>
     </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Grow Your Business</h1>
+            <h2>With Us</h2>
+            <p>We provide top notch services to elevate your brand and help you achieve your goals.</p>
+            <button class="hero-btn">Learn More</button>
+        </div>
+        <div class="hero-image">
+            <img src="Illustration.png" alt="Business Growth">
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p class="services-intro">We provide expert solutions to help your business grow.</p>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Web Development</h3>
+                <p>We build scalable and responsive websites tailored to your needs.</p>
+            </div>
+            <div class="service-box">
+                <h3>SEO Optimization</h3>
+                <p>Boost your website's visibility on search engines and attract more visitors.</p>
+            </div>
+            <div class="service-box">
+                <h3>Digital Marketing</h3>
+                <p>Strategic marketing campains to increase brand awareness and engagement.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container">
+            <div class="info-card">
+                <img src="Frame 35.png" alt="illustration">
+                <div class="info-text">
+                    <h2>The unseen of spending three at Pixelgrade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quaerat eum qui ipsam ut cum, asperiores vero facilis aspernatur quibusdam sunt esse explicabo provident. Quisquam corporis omnis in quod ratione id cupiditate dolorum sunt illum!</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-text">
+                <h2>Helping a local</h2>
+                <h3>business reinvent itself</h3>
+                <p>We reached here with our hardwork and dedication</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stats-column">
+                    <div class="stat">
+                        <img src="Icon.png" alt="icon">
+                        <div class="stat-info">
+                            <h3>2,245,341</h3>
+                            <p>Members</p>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <img src="Icon (2).png" alt="icon">
+                        <div class="stat-info">
+                            <h3>828,867</h3>
+                            <p>Event Bookings</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-column">
+                    <div class="stat">
+                        <img src="Icon (1).png" alt="icon">
+                        <div class="stat-info">
+                            <h3>46,328</h3>
+                            <p>Clubs</p>
+                        </div> 
+                    </div>
+                    <div class="stat">
+                        <img src="Icon (3).png" alt="icon">
+                        <div class="stat-info">
+                            <h3>1,926,436</h3>
+                            <p>Payments</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container">
+            <div class="info-card">
+                <img src="pana.png" alt="illustration">
+                <div class="info-text">
+                    <h2>The unseen of spending three at Pixelgrade</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam rerum corrupti earum dolores maxime? Quibusdam expedita est voluptate sapiente voluptatem alias, harum consequatur mollitia magnam illo minus aut vel deleniti eum reprehenderit ducimus aspernatur maxime, libero veritatis. Quam, vitae laudantium. Ea dignissimos similique impedit veritatis? Quo eius explicabo labore blanditiis. Quisquam enim doloremque obcaecati esse optio, natus alias incidunt repudiandae? Dolorem animi cumque exercitationem dolore.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="testimonial-content">
+                <img src="image 9.png" alt="Company Logo">
+                <div class="testimonial-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, voluptates illo! Modi porro ut deserunt officia inventore non repellat maiores, alias accusantium nobis quam consectetur, error voluptatum, consequatur commodi dolor hic quia. Laborum, magnam soluta aliquid consectetur, sunt cum tempore itaque perferendis iste voluptatum eveniet! Ducimus cum magni commodi iusto facilis tempora dolore ratione voluptatibus inventore nesciunt officiis consequuntur veritatis, molestiae fugiat accusamus itaque voluptate animi eius soluta quaerat quia.</p>
+                    <h4>Tim Smith</h4>
+                    <p>British Dragon Boat Racing Association</p>
+                    <div class="brands">
+                        <img src="Frame 10.png" alt="Brands' logos">
+                        <a href="#" class="arrow-btn">Meet all customers  →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="blog-section">
+        <div class="container">
+            <h2>Caring is the new marketing</h2>
+            <p>The Nexcent blog is the best place to read about the latest membership insights, <br>trends and more. See who's joining the community, read about how our community <br>are increasing their membership income and lots more.</p>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <img src="image 18.png" alt="Blog 1">
+                    <div class="blog-info b-i1">
+                        <h3>Creating Streamlined<br>Safeguarding Processes with<br>OneRen</h3>
+                        <a href="#" class="arrow-btn">Read more →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="image 19.png" alt="Blog 2">
+                    <div class="blog-info b-i2">
+                        <h3>What are your safeguarding<br>responsibilities and how can<br>you manage them?</h3>
+                        <a href="#" class="arrow-btn">Read more →</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="image 20.png" alt="Blog 3">
+                    <div class="blog-info b-i3">
+                        <h3>Revamping the Membership<br>Model with Triathlon<br>Australia</h3>
+                        <a href="#" class="arrow-btn">Read more →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="Logo (2).png" alt="Company Logo">
+                <p>Copyright © 2020 Nexcent Ltd.<br>All rights reserved</p>
+                <div class="social-icons">
+                    <a href="#"><img src="Social Icons(3).png" alt="Instagram" class="fab fa-instagram"></a>
+                    <a href="#"><img src="Social Icons.png" alt="Facebook" class="fab fa-facebook"></a>
+                    <a href="#"><img src="Social Icons(2).png" alt="Twitter" class="fab fa-twitter"></a>
+                    <a href="#"><img src="Social Icons(1).png" alt="YouTube" class="fab fa-youtube"></a>
+
+                    <!-- <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a> -->
+                </div>
+            </div>
+    
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-column">
+                    <h4>Stay up to date</h4>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><img src="send.png" alt="Send" class="fas fa-paper-plane"></button>
+                        <!-- <button type="submit"><i class="fas fa-paper-plane"></i></button> -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
